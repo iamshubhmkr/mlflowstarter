@@ -1,0 +1,12 @@
+data_versions:
+  "1.1":
+    path: "data/v1_1_train.csv"
+    description: "Numerical + Sex only"
+
+  "1.2":
+    path: "data/v1_2_train.csv"
+    description: "All features minus PassengerId"
+
+  "1.3":
+    path: "data/v1_3_train.csv"
+    description: "70% of version 1.2 for subset testing"

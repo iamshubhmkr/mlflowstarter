@@ -1,0 +1,6 @@
+experiment_name: "titanic_mlflow"
+model_name: "titanic_lightgbm"
+#mlflow_uri: "http://127.0.0.1:5000"
+n_trials: 30
+target_column: "Survived"
+data_version: "1.3"
